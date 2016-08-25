@@ -15,6 +15,12 @@
 		C050BBB71D6EEC2800A0FBB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C050BBB51D6EEC2800A0FBB8 /* LaunchScreen.storyboard */; };
 		C050BBC21D6EEC2900A0FBB8 /* VRVedioTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C050BBC11D6EEC2900A0FBB8 /* VRVedioTests.m */; };
 		C050BBCD1D6EEC2900A0FBB8 /* VRVedioUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C050BBCC1D6EEC2900A0FBB8 /* VRVedioUITests.m */; };
+		C050BBDC1D6EEC8E00A0FBB8 /* LeftContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C050BBDB1D6EEC8E00A0FBB8 /* LeftContainerView.m */; };
+		C050BBDF1D6EECA400A0FBB8 /* RightContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C050BBDE1D6EECA400A0FBB8 /* RightContainerView.m */; };
+		C050BBE11D6EED0200A0FBB8 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C050BBE01D6EED0200A0FBB8 /* AVFoundation.framework */; };
+		C050BBE31D6EED0900A0FBB8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C050BBE21D6EED0900A0FBB8 /* CoreGraphics.framework */; };
+		C050BBE51D6EED1100A0FBB8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C050BBE41D6EED1100A0FBB8 /* QuartzCore.framework */; };
+		C050BBE71D6EED1A00A0FBB8 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C050BBE61D6EED1A00A0FBB8 /* CoreMotion.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,14 @@
 		C050BBC81D6EEC2900A0FBB8 /* VRVedioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VRVedioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C050BBCC1D6EEC2900A0FBB8 /* VRVedioUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VRVedioUITests.m; sourceTree = "<group>"; };
 		C050BBCE1D6EEC2900A0FBB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C050BBDA1D6EEC8E00A0FBB8 /* LeftContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftContainerView.h; sourceTree = "<group>"; };
+		C050BBDB1D6EEC8E00A0FBB8 /* LeftContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftContainerView.m; sourceTree = "<group>"; };
+		C050BBDD1D6EECA400A0FBB8 /* RightContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightContainerView.h; sourceTree = "<group>"; };
+		C050BBDE1D6EECA400A0FBB8 /* RightContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightContainerView.m; sourceTree = "<group>"; };
+		C050BBE01D6EED0200A0FBB8 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		C050BBE21D6EED0900A0FBB8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C050BBE41D6EED1100A0FBB8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C050BBE61D6EED1A00A0FBB8 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C050BBE71D6EED1A00A0FBB8 /* CoreMotion.framework in Frameworks */,
+				C050BBE51D6EED1100A0FBB8 /* QuartzCore.framework in Frameworks */,
+				C050BBE31D6EED0900A0FBB8 /* CoreGraphics.framework in Frameworks */,
+				C050BBE11D6EED0200A0FBB8 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +99,10 @@
 		C050BB9B1D6EEC2800A0FBB8 = {
 			isa = PBXGroup;
 			children = (
+				C050BBE61D6EED1A00A0FBB8 /* CoreMotion.framework */,
+				C050BBE41D6EED1100A0FBB8 /* QuartzCore.framework */,
+				C050BBE21D6EED0900A0FBB8 /* CoreGraphics.framework */,
+				C050BBE01D6EED0200A0FBB8 /* AVFoundation.framework */,
 				C050BBA61D6EEC2800A0FBB8 /* VRVedio */,
 				C050BBC01D6EEC2900A0FBB8 /* VRVedioTests */,
 				C050BBCB1D6EEC2900A0FBB8 /* VRVedioUITests */,
@@ -106,6 +128,10 @@
 				C050BBAD1D6EEC2800A0FBB8 /* ViewController.h */,
 				C050BBAE1D6EEC2800A0FBB8 /* ViewController.m */,
 				C050BBB01D6EEC2800A0FBB8 /* Main.storyboard */,
+				C050BBDA1D6EEC8E00A0FBB8 /* LeftContainerView.h */,
+				C050BBDB1D6EEC8E00A0FBB8 /* LeftContainerView.m */,
+				C050BBDD1D6EECA400A0FBB8 /* RightContainerView.h */,
+				C050BBDE1D6EECA400A0FBB8 /* RightContainerView.m */,
 				C050BBB31D6EEC2800A0FBB8 /* Assets.xcassets */,
 				C050BBB51D6EEC2800A0FBB8 /* LaunchScreen.storyboard */,
 				C050BBB81D6EEC2800A0FBB8 /* Info.plist */,
@@ -273,6 +299,8 @@
 				C050BBAF1D6EEC2800A0FBB8 /* ViewController.m in Sources */,
 				C050BBAC1D6EEC2800A0FBB8 /* AppDelegate.m in Sources */,
 				C050BBA91D6EEC2800A0FBB8 /* main.m in Sources */,
+				C050BBDF1D6EECA400A0FBB8 /* RightContainerView.m in Sources */,
+				C050BBDC1D6EEC8E00A0FBB8 /* LeftContainerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

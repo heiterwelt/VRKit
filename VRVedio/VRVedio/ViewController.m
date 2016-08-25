@@ -16,6 +16,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.leftView=[[LeftContainerView alloc]initWithFrame:CGRectMake(0, 0, self.view.frame.size.width/2, self.view.frame.size.height)];
+    [self.view addSubview:self.leftView];
+    
+    
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
 

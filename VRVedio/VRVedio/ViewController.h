@@ -7,9 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "LeftContainerView.h"
 @interface ViewController : UIViewController
-
-
+@property(nonatomic,strong)LeftContainerView *leftView;
 @end
 
