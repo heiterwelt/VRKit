@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C050BBA91D6EEC2800A0FBB8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C050BBA81D6EEC2800A0FBB8 /* main.m */; };
+		C050BBAC1D6EEC2800A0FBB8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C050BBAB1D6EEC2800A0FBB8 /* AppDelegate.m */; };
+		C050BBAF1D6EEC2800A0FBB8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C050BBAE1D6EEC2800A0FBB8 /* ViewController.m */; };
+		C050BBB21D6EEC2800A0FBB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C050BBB01D6EEC2800A0FBB8 /* Main.storyboard */; };
+		C050BBB41D6EEC2800A0FBB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C050BBB31D6EEC2800A0FBB8 /* Assets.xcassets */; };
+		C050BBB71D6EEC2800A0FBB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C050BBB51D6EEC2800A0FBB8 /* LaunchScreen.storyboard */; };
+		C050BBC21D6EEC2900A0FBB8 /* VRVedioTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C050BBC11D6EEC2900A0FBB8 /* VRVedioTests.m */; };
+		C050BBCD1D6EEC2900A0FBB8 /* VRVedioUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C050BBCC1D6EEC2900A0FBB8 /* VRVedioUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C050BBBE1D6EEC2900A0FBB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C050BB9C1D6EEC2800A0FBB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C050BBA31D6EEC2800A0FBB8;
+			remoteInfo = VRVedio;
+		};
+		C050BBC91D6EEC2900A0FBB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C050BB9C1D6EEC2800A0FBB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C050BBA31D6EEC2800A0FBB8;
+			remoteInfo = VRVedio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C050BBA41D6EEC2800A0FBB8 /* VRVedio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VRVedio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C050BBA81D6EEC2800A0FBB8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C050BBAA1D6EEC2800A0FBB8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C050BBAB1D6EEC2800A0FBB8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C050BBAD1D6EEC2800A0FBB8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C050BBAE1D6EEC2800A0FBB8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C050BBB11D6EEC2800A0FBB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C050BBB31D6EEC2800A0FBB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C050BBB61D6EEC2800A0FBB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C050BBB81D6EEC2800A0FBB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C050BBBD1D6EEC2900A0FBB8 /* VRVedioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VRVedioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C050BBC11D6EEC2900A0FBB8 /* VRVedioTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VRVedioTests.m; sourceTree = "<group>"; };
+		C050BBC31D6EEC2900A0FBB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C050BBC81D6EEC2900A0FBB8 /* VRVedioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VRVedioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C050BBCC1D6EEC2900A0FBB8 /* VRVedioUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VRVedioUITests.m; sourceTree = "<group>"; };
+		C050BBCE1D6EEC2900A0FBB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C050BBA11D6EEC2800A0FBB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C050BBBA1D6EEC2900A0FBB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C050BBC51D6EEC2900A0FBB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C050BB9B1D6EEC2800A0FBB8 = {
+			isa = PBXGroup;
+			children = (
+				C050BBA61D6EEC2800A0FBB8 /* VRVedio */,
+				C050BBC01D6EEC2900A0FBB8 /* VRVedioTests */,
+				C050BBCB1D6EEC2900A0FBB8 /* VRVedioUITests */,
+				C050BBA51D6EEC2800A0FBB8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C050BBA51D6EEC2800A0FBB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C050BBA41D6EEC2800A0FBB8 /* VRVedio.app */,
+				C050BBBD1D6EEC2900A0FBB8 /* VRVedioTests.xctest */,
+				C050BBC81D6EEC2900A0FBB8 /* VRVedioUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C050BBA61D6EEC2800A0FBB8 /* VRVedio */ = {
+			isa = PBXGroup;
+			children = (
+				C050BBAA1D6EEC2800A0FBB8 /* AppDelegate.h */,
+				C050BBAB1D6EEC2800A0FBB8 /* AppDelegate.m */,
+				C050BBAD1D6EEC2800A0FBB8 /* ViewController.h */,
+				C050BBAE1D6EEC2800A0FBB8 /* ViewController.m */,
+				C050BBB01D6EEC2800A0FBB8 /* Main.storyboard */,
+				C050BBB31D6EEC2800A0FBB8 /* Assets.xcassets */,
+				C050BBB51D6EEC2800A0FBB8 /* LaunchScreen.storyboard */,
+				C050BBB81D6EEC2800A0FBB8 /* Info.plist */,
+				C050BBA71D6EEC2800A0FBB8 /* Supporting Files */,
+			);
+			path = VRVedio;
+			sourceTree = "<group>";
+		};
+		C050BBA71D6EEC2800A0FBB8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C050BBA81D6EEC2800A0FBB8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C050BBC01D6EEC2900A0FBB8 /* VRVedioTests */ = {
+			isa = PBXGroup;
+			children = (
+				C050BBC11D6EEC2900A0FBB8 /* VRVedioTests.m */,
+				C050BBC31D6EEC2900A0FBB8 /* Info.plist */,
+			);
+			path = VRVedioTests;
+			sourceTree = "<group>";
+		};
+		C050BBCB1D6EEC2900A0FBB8 /* VRVedioUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C050BBCC1D6EEC2900A0FBB8 /* VRVedioUITests.m */,
+				C050BBCE1D6EEC2900A0FBB8 /* Info.plist */,
+			);
+			path = VRVedioUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C050BBA31D6EEC2800A0FBB8 /* VRVedio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C050BBD11D6EEC2900A0FBB8 /* Build configuration list for PBXNativeTarget "VRVedio" */;
+			buildPhases = (
+				C050BBA01D6EEC2800A0FBB8 /* Sources */,
+				C050BBA11D6EEC2800A0FBB8 /* Frameworks */,
+				C050BBA21D6EEC2800A0FBB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VRVedio;
+			productName = VRVedio;
+			productReference = C050BBA41D6EEC2800A0FBB8 /* VRVedio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C050BBBC1D6EEC2900A0FBB8 /* VRVedioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C050BBD41D6EEC2900A0FBB8 /* Build configuration list for PBXNativeTarget "VRVedioTests" */;
+			buildPhases = (
+				C050BBB91D6EEC2900A0FBB8 /* Sources */,
+				C050BBBA1D6EEC2900A0FBB8 /* Frameworks */,
+				C050BBBB1D6EEC2900A0FBB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C050BBBF1D6EEC2900A0FBB8 /* PBXTargetDependency */,
+			);
+			name = VRVedioTests;
+			productName = VRVedioTests;
+			productReference = C050BBBD1D6EEC2900A0FBB8 /* VRVedioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C050BBC71D6EEC2900A0FBB8 /* VRVedioUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C050BBD71D6EEC2900A0FBB8 /* Build configuration list for PBXNativeTarget "VRVedioUITests" */;
+			buildPhases = (
+				C050BBC41D6EEC2900A0FBB8 /* Sources */,
+				C050BBC51D6EEC2900A0FBB8 /* Frameworks */,
+				C050BBC61D6EEC2900A0FBB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C050BBCA1D6EEC2900A0FBB8 /* PBXTargetDependency */,
+			);
+			name = VRVedioUITests;
+			productName = VRVedioUITests;
+			productReference = C050BBC81D6EEC2900A0FBB8 /* VRVedioUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C050BB9C1D6EEC2800A0FBB8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = TGSDK;
+				TargetAttributes = {
+					C050BBA31D6EEC2800A0FBB8 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					C050BBBC1D6EEC2900A0FBB8 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = C050BBA31D6EEC2800A0FBB8;
+					};
+					C050BBC71D6EEC2900A0FBB8 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = C050BBA31D6EEC2800A0FBB8;
+					};
+				};
+			};
+			buildConfigurationList = C050BB9F1D6EEC2800A0FBB8 /* Build configuration list for PBXProject "VRVedio" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C050BB9B1D6EEC2800A0FBB8;
+			productRefGroup = C050BBA51D6EEC2800A0FBB8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C050BBA31D6EEC2800A0FBB8 /* VRVedio */,
+				C050BBBC1D6EEC2900A0FBB8 /* VRVedioTests */,
+				C050BBC71D6EEC2900A0FBB8 /* VRVedioUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C050BBA21D6EEC2800A0FBB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C050BBB71D6EEC2800A0FBB8 /* LaunchScreen.storyboard in Resources */,
+				C050BBB41D6EEC2800A0FBB8 /* Assets.xcassets in Resources */,
+				C050BBB21D6EEC2800A0FBB8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C050BBBB1D6EEC2900A0FBB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C050BBC61D6EEC2900A0FBB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C050BBA01D6EEC2800A0FBB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C050BBAF1D6EEC2800A0FBB8 /* ViewController.m in Sources */,
+				C050BBAC1D6EEC2800A0FBB8 /* AppDelegate.m in Sources */,
+				C050BBA91D6EEC2800A0FBB8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C050BBB91D6EEC2900A0FBB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C050BBC21D6EEC2900A0FBB8 /* VRVedioTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C050BBC41D6EEC2900A0FBB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C050BBCD1D6EEC2900A0FBB8 /* VRVedioUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C050BBBF1D6EEC2900A0FBB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C050BBA31D6EEC2800A0FBB8 /* VRVedio */;
+			targetProxy = C050BBBE1D6EEC2900A0FBB8 /* PBXContainerItemProxy */;
+		};
+		C050BBCA1D6EEC2900A0FBB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C050BBA31D6EEC2800A0FBB8 /* VRVedio */;
+			targetProxy = C050BBC91D6EEC2900A0FBB8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C050BBB01D6EEC2800A0FBB8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C050BBB11D6EEC2800A0FBB8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C050BBB51D6EEC2800A0FBB8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C050BBB61D6EEC2800A0FBB8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C050BBCF1D6EEC2900A0FBB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C050BBD01D6EEC2900A0FBB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C050BBD21D6EEC2900A0FBB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VRVedio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = th.in.gamforest.VRVedio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C050BBD31D6EEC2900A0FBB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VRVedio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = th.in.gamforest.VRVedio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C050BBD51D6EEC2900A0FBB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VRVedioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = th.in.gamforest.VRVedioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VRVedio.app/VRVedio";
+			};
+			name = Debug;
+		};
+		C050BBD61D6EEC2900A0FBB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VRVedioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = th.in.gamforest.VRVedioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VRVedio.app/VRVedio";
+			};
+			name = Release;
+		};
+		C050BBD81D6EEC2900A0FBB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VRVedioUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = th.in.gamforest.VRVedioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VRVedio;
+			};
+			name = Debug;
+		};
+		C050BBD91D6EEC2900A0FBB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VRVedioUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = th.in.gamforest.VRVedioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VRVedio;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C050BB9F1D6EEC2800A0FBB8 /* Build configuration list for PBXProject "VRVedio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C050BBCF1D6EEC2900A0FBB8 /* Debug */,
+				C050BBD01D6EEC2900A0FBB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C050BBD11D6EEC2900A0FBB8 /* Build configuration list for PBXNativeTarget "VRVedio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C050BBD21D6EEC2900A0FBB8 /* Debug */,
+				C050BBD31D6EEC2900A0FBB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C050BBD41D6EEC2900A0FBB8 /* Build configuration list for PBXNativeTarget "VRVedioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C050BBD51D6EEC2900A0FBB8 /* Debug */,
+				C050BBD61D6EEC2900A0FBB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C050BBD71D6EEC2900A0FBB8 /* Build configuration list for PBXNativeTarget "VRVedioUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C050BBD81D6EEC2900A0FBB8 /* Debug */,
+				C050BBD91D6EEC2900A0FBB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C050BB9C1D6EEC2800A0FBB8 /* Project object */;
+}
